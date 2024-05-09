@@ -29,6 +29,7 @@
     reaper
   	brave
 	gimp
+	qjackctl
 	tmux
 	rocmPackages_5.llvm.clang
 	rustup
