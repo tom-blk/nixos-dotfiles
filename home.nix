@@ -22,7 +22,9 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = with pkgs; [
-    discord
+  jack2
+	slack
+	discord
     guitarix
     reaper
   	brave
