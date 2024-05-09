@@ -24,6 +24,7 @@
   home.packages = with pkgs; [
   jack2
 	slack
+	tuxguitar
 	discord
     guitarix
     reaper
