@@ -114,7 +114,10 @@
       vimdiffAlias = true;
   };
 
-  xdg.configFile.nvim.source = ./nvim;
+  xdg.configFile.nvim = {
+  	source = ./nvim;
+	recursive = true
+}
 
   programs.tmux = {
       enable = true;
