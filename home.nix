@@ -116,8 +116,8 @@
 
   xdg.configFile.nvim = {
   	source = ./nvim;
-	recursive = true
-}
+	recursive = true;
+  };
 
   programs.tmux = {
       enable = true;
