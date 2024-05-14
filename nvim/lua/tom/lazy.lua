@@ -22,6 +22,7 @@ local plugins = {
 	'hrsh7th/cmp-nvim-lsp',
 	'hrsh7th/nvim-cmp',
 	'L3MON4D3/LuaSnip',
+    { "folke/trouble.nvim", dependencies = { "nvim-tree/nvim-web-devicons" }, opts = {}},
 	{'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
 	{ 'windwp/nvim-autopairs', event = "InsertEnter", config = true },
 	{ 'nvim-telescope/telescope.nvim', tag = '0.1.6', dependencies = { 'nvim-lua/plenary.nvim' }},
